@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Text:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Urbanist:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+SC&display=swap');
+
+.navbarWrapper {
+  height: 70px;
+  width: 100vw;
+  padding: 0 20%;
+}
+.navbar {
+  border-bottom: 0.01px solid #096a09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Sora', sans-serif;
+  color: #096a09;
+  padding-top: 10px;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.brandName {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.signupButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.603);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 4px 7px;
+  border-radius: 12px;
+  border: 1px solid rgb(153 187 153 / 40%);
+  cursor: pointer;
+  transition: all 0.7s ease;
+  font-size: 12px;
+  font-weight: 500;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+@media (max-width: 600px) {
+  .navLinks {
+    gap: 16px;
+  }
+
+  .brandName {
+    font-size: 16px;
+  }
+
+  .signupButton {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+}
+
+
