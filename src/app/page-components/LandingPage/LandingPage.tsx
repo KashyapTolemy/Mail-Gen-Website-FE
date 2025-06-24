@@ -22,7 +22,7 @@ const LandingPage = () => {
   }
 
   return (
-    <div className='container'>
+    <div className={styles.container}>
       <Navbar />
       <HeroSection />
       <CardSection />
