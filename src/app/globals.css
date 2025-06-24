@@ -9,4 +9,8 @@
     margin: 0;
     height: 100vh ;
     width: 100vw;
+    &::selection {
+        background-color: #c5f2d5; 
+        color: #096a09;            
+    }
 }
