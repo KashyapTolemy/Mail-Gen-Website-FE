@@ -23,17 +23,20 @@
 .logo {
   height: 60px;
   width: 60px;
+  cursor: pointer;
 }
 
 .brandName {
   font-size: 22px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .navLinks {
   display: flex;
   align-items: center;
   gap: 30px;
+  cursor: pointer;
 }
 
 .signupButton {
